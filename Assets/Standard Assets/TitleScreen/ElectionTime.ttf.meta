@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c8b23bab280e04a438f34e5d8ae67c96
+timeCreated: 1485024171
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ElectionTime
+  fontNames:
+  - ElectionTime
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

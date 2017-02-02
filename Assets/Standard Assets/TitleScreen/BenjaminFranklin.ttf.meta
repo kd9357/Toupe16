@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: db4141a11a309404cb9e0dafb3375471
+timeCreated: 1485024277
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Benjamin Franklin
+  fontNames:
+  - Benjamin Franklin
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

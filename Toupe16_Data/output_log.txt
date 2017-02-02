@@ -1,0 +1,150 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7700M Series (ID=0x682f)
+    Vendor:   ATI
+    VRAM:     2029 MB
+    Driver:   10.18.10.4358
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.034 seconds
+Platform assembly: C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kevin\Documents\ToupÃ©16\Toupe16_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 59Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.397199 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.053444 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 489.
+Total: 0.369010 ms (FindLiveObjects: 0.023325 ms CreateObjectMapping: 0.019593 ms MarkObjects: 0.243985 ms  DeleteObjects: 0.081639 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SetUpMenu.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.724024 ms
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 946.
+Total: 0.543018 ms (FindLiveObjects: 0.068110 ms CreateObjectMapping: 0.027057 ms MarkObjects: 0.250049 ms  DeleteObjects: 0.197334 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.843451 ms
+
+Unloading 128 unused Assets to reduce memory usage. Loaded Objects now: 332.
+Total: 1.088369 ms (FindLiveObjects: 0.031256 ms CreateObjectMapping: 0.029390 ms MarkObjects: 0.251915 ms  DeleteObjects: 0.774407 ms)
+
+helo
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.364344 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 382.
+Total: 0.451582 ms (FindLiveObjects: 0.036387 ms CreateObjectMapping: 0.033122 ms MarkObjects: 0.255647 ms  DeleteObjects: 0.125491 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.AudioSource:PlayOneShot (UnityEngine.AudioClip,single)
+  at UnityEngine.AudioSource.PlayOneShot (UnityEngine.AudioClip clip) [0x00000] in <filename unknown>:0 
+  at ButtonSound.Onhover () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.Execute (EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerEnterHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerEnterHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
+UnityEngine.EventSystems.PointerInputModule:ProcessMove(PointerEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.AudioSource:PlayOneShot (UnityEngine.AudioClip,single)
+  at UnityEngine.AudioSource.PlayOneShot (UnityEngine.AudioClip clip) [0x00000] in <filename unknown>:0 
+  at ButtonSound.Onclick () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.Execute (EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerDownHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.ExecuteEvents:ExecuteHierarchy(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.442718 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 490.
+Total: 0.583138 ms (FindLiveObjects: 0.032655 ms CreateObjectMapping: 0.027057 ms MarkObjects: 0.342418 ms  DeleteObjects: 0.180539 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SetUpMenu.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.713761 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1313.
+Total: 0.778140 ms (FindLiveObjects: 0.065778 ms CreateObjectMapping: 0.035454 ms MarkObjects: 0.324225 ms  DeleteObjects: 0.352215 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.392068 ms
+
+Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 322.
+Total: 4.867107 ms (FindLiveObjects: 0.028923 ms CreateObjectMapping: 0.027524 ms MarkObjects: 0.208063 ms  DeleteObjects: 4.601662 ms)
+
+helo
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.307430 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 375.
+Total: 0.523891 ms (FindLiveObjects: 0.043385 ms CreateObjectMapping: 0.022392 ms MarkObjects: 0.238387 ms  DeleteObjects: 0.218327 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2064 -> priority: 1 
+  Thread -> id: d08 -> priority: 1 
